@@ -17,7 +17,7 @@ digital world creation framework
 
 site: [https://7EX.LEX3R.com/$/999/kamimodo™](https://7EX.LEX3R.com/$/999/kamimodo™)  
 download: [https://7EX.LEX3R.com/$/999/kamimodo™/SDK/0.1](https://7EX.LEX3R.com/$/999/kamimodo™/SDK/0.1)  
-current version: 0.1 - early access - first public release, expect breaking changes according to roadmap major releases
+current version: 0.1 - early stage, pre-alpha - expect breaking changes in future major releases
 
 #### SAMPLES
 **AudioVisualizer**
@@ -35,7 +35,7 @@ current version: 0.1 - early access - first public release, expect breaking chan
 
 **Kinect**
 
-kinect controller integration example
+Kinect controller integration example
 
 - attaches Kinect's left and right hand position readings to two physical objects using skull.x 3d model
 - fills the scene with infinitely falling skull physical objects
@@ -43,7 +43,7 @@ kinect controller integration example
 
 **LiDAR_84**
 
-character controller placed inside of physical, 3d-scanned real-world locations example
+a character controller placed inside of physical, 3d-scanned real-world locations example
 
 ![LiDAR_84_02.png](docs/screenshots/LiDAR_84_02.png)
 
