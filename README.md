@@ -1,4 +1,4 @@
-### **kamimodo SDK™**
+### kamimodo SDK™ : kamimodo™
 
 the legacy of GODMODE_999
 
@@ -74,7 +74,7 @@ LLM chatbot using Ollama integration example
 - *(in preparation)* CLion/CMake run support
 
 **sdk**
-- [https://7EX.LEX3R.com/$/999/kamimodo™/SDK/0.1](https://7EX.LEX3R.com/$/999/kamimodo™/SDK/0.1)**
+- [https://7EX.LEX3R.com/$/999/kamimodo™/SDK/0.1](https://7EX.LEX3R.com/$/999/kamimodo™/SDK/0.1)
 
 **third-party libraries**
 - **Boost 1.69.0** - https://sourceforge.net/projects/boost/files/boost/1.69.0/boost_1_69_0.zip/download
