@@ -1,0 +1,85 @@
+{
+    "$order": [
+        "bloom",
+        "motion-blur",
+        "grain",
+        "colorblindness",
+        "color-adjust",
+        "grayscale",
+        "ascii",
+        "post-effect",
+        "bloom#2",
+        "color-adjust#2",
+        "edge-detect",
+        "ascii#2"
+    ],
+    "bloom": {
+        "baseSaturation": 1,
+        "baseIntensity": 1,
+        "bloomSaturation": 1,
+        "bloomIntensity": 1,
+        "threshold": 0.2,
+        "numSamples": 15,
+        "pixelPerturbModifier": 4,
+        "pixelWeightModifier": 4,
+        "active": true
+    },
+    "colorblindness": {
+        "colorBlindnessType": "ACHROMATOPSIA",
+        "intensity": 5,
+        "active": true
+    },
+    "color-adjust": {
+        "brightness": 1,
+        "contrast": 1.1,
+        "gamma": 0.9,
+        "color": {
+            "x": 0.4,
+            "y": 0.7,
+            "z": 1.5,
+            "w": 1
+        },
+        "active": true
+    },
+    "grayscale": {
+        "intensity": 0.5,
+        "active": true
+    },
+    "ascii": {
+        "intensity": 1,
+        "fragmentSize": 12,
+        "active": true
+    },
+    "bloom#2": {
+        "baseSaturation": 1,
+        "baseIntensity": 1,
+        "bloomSaturation": 1,
+        "bloomIntensity": 2,
+        "threshold": 0,
+        "numSamples": 25,
+        "pixelPerturbModifier": 2,
+        "pixelWeightModifier": 2,
+        "active": true
+    },
+    "color-adjust#2": {
+        "brightness": 1,
+        "contrast": 1.2,
+        "gamma": 1,
+        "color": {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "w": 1
+        },
+        "active": true
+    },
+    "edge-detect": {
+        "intensity": 0.025,
+        "active": true
+    },
+    "ascii#2": {
+        "intensity": 0.5,
+        "fragmentSize": 3,
+        "active": true
+    }
+}

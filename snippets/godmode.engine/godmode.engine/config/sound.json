@@ -1,0 +1,13 @@
+{
+    "device": {
+        "enabled": true
+    },
+    "bass": {
+        "enabled": true
+    },
+    "basswasapi": {
+        "enabled": true
+    },
+    "bandCount": 16,
+    "bandHistoryBufferSize": 6
+}

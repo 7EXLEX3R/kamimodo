@@ -1,0 +1,20 @@
+Microsoft Visual C++ Redistributable License
+Version: msvc-14.0
+
+This software contains components provided by Microsoft Corporation.
+The redistribution and use of Microsoft Visual C++ Redistributable files
+is governed by the Microsoft Software License Terms for Visual Studio
+and the Visual C++ Redistributable.
+
+You can review the official license terms at:
+- https://visualstudio.microsoft.com/license-terms/
+- (msvc v140) https://visualstudio.microsoft.com/license-terms/mt171552/
+
+Redistribution Guidance:
+- You may redistribute the Visual C++ runtime binaries only as permitted
+  by Microsoft’s license terms.
+- Do not modify the files.
+- End users must accept the Microsoft license.
+
+Please review the full license in the included file:
+- LICENSES/microsoft_vc_redist_EULA/microsoft_vc_redist_EULA.txt

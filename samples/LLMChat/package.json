@@ -1,0 +1,13 @@
+{
+	"name": "godmode.samples.LLMChat",
+	"version": "1.0.0",
+	"type": "module",
+	"main": "LLMChat/main.js",
+	"scripts": {
+		"start": "node LLMChat/main.js"
+	},
+	"dependencies": {
+		"express": "^5.1.0",
+		"undici": "^7.11.0"
+	}
+}

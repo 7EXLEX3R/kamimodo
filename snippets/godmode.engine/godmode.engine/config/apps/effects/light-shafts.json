@@ -1,0 +1,40 @@
+{
+    "position.x": 700,
+    "position.y": -300,
+    "name": "lightshafts",
+    "type": "object",
+    "properties": {
+        "active": {
+            "type": "boolean",
+            "default": true
+        },
+        "threshold": {
+            "type": "number",
+            "default": 0.5
+        },
+        "maxValue": {
+            "type": "number",
+            "default": 0.2
+        },
+        "decay": {
+            "type": "number",
+            "default": 0.97
+        },
+        "density": {
+            "type": "number",
+            "default": 0.6
+        },
+        "numSamples": {
+            "type": "integer",
+            "default": 100
+        }
+    },
+    "$order": [
+        "active",
+        "threshold",
+        "maxValue",
+        "decay",
+        "density",
+        "numSamples"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "renderer": {
+        "width": 0,
+        "height": 0,
+        "shadowMapTextureSize": 2048,
+        "cubeShadowMapTextureSize": 512,
+        "ssrEnabled": false,
+        "ssaoEnabled": false,
+        "guiVisible": false,
+        "maxCubeShadowMapCount": 4
+    },
+    "previewRenderer": {
+        "width": 512,
+        "height": 512,
+        "shadowMapTextureSize": 512,
+        "cubeShadowMapTextureSize": 512,
+        "ssrEnabled": false,
+        "ssaoEnabled": false
+    },
+    "preferPrecompiledShaders": false,
+    "precompileShadersExclude": []
+}

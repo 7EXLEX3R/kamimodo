@@ -1,0 +1,25 @@
+{
+    "position.x": 800,
+    "position.y": -300,
+    "name": "motionblur",
+    "type": "object",
+    "properties": {
+        "active": {
+            "type": "boolean",
+            "default": true
+        },
+        "intensity": {
+            "type": "number",
+            "default": 0.1
+        },
+        "numSamples": {
+            "type": "integer",
+            "default": 10
+        }
+    },
+    "$order": [
+        "active",
+        "intensity",
+        "numSamples"
+    ]
+}

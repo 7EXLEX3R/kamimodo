@@ -1,0 +1,55 @@
+{
+    "position.x": 100,
+    "position.y": -300,
+    "name": "bloom",
+    "type": "object",
+    "properties": {
+        "active": {
+            "type": "boolean",
+            "default": true
+        },
+        "baseSaturation": {
+            "type": "number",
+            "default": 0.9
+        },
+        "baseIntensity": {
+            "type": "number",
+            "default": 1
+        },
+        "bloomSaturation": {
+            "type": "number",
+            "default": 0.8
+        },
+        "bloomIntensity": {
+            "type": "number",
+            "default": 1.1
+        },
+        "threshold": {
+            "type": "number",
+            "default": 0.2
+        },
+        "numSamples": {
+            "type": "integer",
+            "default": 15
+        },
+        "pixelPerturbModifier": {
+            "type": "number",
+            "default": 4
+        },
+        "pixelWeightModifier": {
+            "type": "number",
+            "default": 4
+        }
+    },
+    "$order": [
+        "active",
+        "baseSaturation",
+        "baseIntensity",
+        "bloomSaturation",
+        "bloomIntensity",
+        "threshold",
+        "numSamples",
+        "pixelPerturbModifier",
+        "pixelWeightModifier"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "position.x": 0,
+    "position.y": -300,
+    "name": "ascii",
+    "type": "object",
+    "properties": {
+        "active": {
+            "type": "boolean",
+            "default": true
+        },
+        "intensity": {
+            "type": "number",
+            "default": 0
+        },
+        "fragmentSize": {
+            "type": "number",
+            "default": 16
+        }
+    },
+    "$order": [
+        "active",
+        "intensity",
+        "fragmentSize"
+    ]
+}

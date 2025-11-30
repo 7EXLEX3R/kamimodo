@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Test|Win32">
+      <Configuration>Test</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{751B93C0-A8F4-4BE6-BA32-67D420610051}</ProjectGuid>
+    <RootNamespace>LiDAR_84</RootNamespace>
+    <Keyword>ManagedCProj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <CLRSupport>false</CLRSupport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <CLRSupport>false</CLRSupport>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Test|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>16.0.35824.211</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>runtime$;serialization$;WIN32;_DEBUG;_CRT_SECURE_NO_WARNINGS;NOMINMAX;DIRECTINPUT_VERSION=0x0800;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>$(BOOST_DIR);$(BASS_DIR)\c;$(BASSWASAPI_DIR)\c;$(PHYSX_DIR)\PhysX_3.4\Include;$(PHYSX_DIR)\PxShared\include;$(PHYSX_DIR)\PxShared\src\foundation\include;$(PHYSX_DIR)\PxShared\src\fastxml\include;$(KINECTSDK10_DIR)inc;$(DXSDK_DIR)\Include;$(KAMIMODO_SDK_DIR)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AssemblyDebug>true</AssemblyDebug>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalLibraryDirectories>$(BOOST_DIR)\bin.v2\libs\test\build\msvc-14.0\debug\link-static\runtime-link-static\threading-multi;$(BOOST_DIR)\bin.v2\libs\serialization\build\msvc-14.0\debug\link-static\runtime-link-static\threading-multi;$(BOOST_DIR)\bin.v2\libs\thread\build\msvc-14.0\debug\link-static\runtime-link-static\threadapi-win32\threading-multi;$(BOOST_DIR)\bin.v2\libs\date_time\build\msvc-14.0\debug\link-static\runtime-link-static\threading-multi;$(BOOST_DIR)\bin.v2\libs\chrono\build\msvc-14.0\debug\link-static\runtime-link-static\threading-multi;$(BOOST_DIR)\bin.v2\libs\filesystem\build\msvc-14.0\debug\link-static\runtime-link-static\threading-multi;$(BOOST_DIR)\bin.v2\libs\regex\build\msvc-14.0\debug\link-static\runtime-link-static\threading-multi;$(BASS_DIR)\c;$(BASSWASAPI_DIR)\c;$(PHYSX_DIR)\PhysX_3.4\Lib\vc14win32;$(PHYSX_DIR)\PxShared\lib\vc14win32;$(KINECTSDK10_DIR)lib/x86;$(DXSDK_DIR)\Lib\x86;$(KAMIMODO_SDK_DIR)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Test|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>test$;serialization$;WIN32;_DEBUG;_CRT_SECURE_NO_WARNINGS;NOMINMAX;DIRECTINPUT_VERSION=0x0800;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>$(BOOST_DIR);$(BASS_DIR)\c;$(BASSWASAPI_DIR)\c;$(PHYSX_DIR)\PhysX_3.4\Include;$(PHYSX_DIR)\PxShared\include;$(PHYSX_DIR)\PxShared\src\foundation\include;$(PHYSX_DIR)\PxShared\src\fastxml\include;$(KINECTSDK10_DIR)inc;$(DXSDK_DIR)\Include;$(KAMIMODO_SDK_DIR)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AssemblyDebug>true</AssemblyDebug>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalLibraryDirectories>$(BOOST_DIR)\bin.v2\libs\test\build\msvc-14.0\debug\link-static\runtime-link-static\threading-multi;$(BOOST_DIR)\bin.v2\libs\serialization\build\msvc-14.0\debug\link-static\runtime-link-static\threading-multi;$(BOOST_DIR)\bin.v2\libs\thread\build\msvc-14.0\debug\link-static\runtime-link-static\threadapi-win32\threading-multi;$(BOOST_DIR)\bin.v2\libs\date_time\build\msvc-14.0\debug\link-static\runtime-link-static\threading-multi;$(BOOST_DIR)\bin.v2\libs\chrono\build\msvc-14.0\debug\link-static\runtime-link-static\threading-multi;$(BOOST_DIR)\bin.v2\libs\filesystem\build\msvc-14.0\debug\link-static\runtime-link-static\threading-multi;$(BOOST_DIR)\bin.v2\libs\regex\build\msvc-14.0\debug\link-static\runtime-link-static\threading-multi;$(BASS_DIR)\c;$(BASSWASAPI_DIR)\c;$(PHYSX_DIR)\PhysX_3.4\Lib\vc14win32;$(PHYSX_DIR)\PxShared\lib\vc14win32;$(KINECTSDK10_DIR)lib/x86;$(DXSDK_DIR)\Lib\x86;$(KAMIMODO_SDK_DIR)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="config\system.json" />
+    <None Include="config\effects.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="source\App_Test.cpp" />
+    <ClCompile Include="test.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="shaders\custom.fx">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Test|Win32'">true</ExcludedFromBuild>
+    </FxCompile>
+    <FxCompile Include="shaders\hue-skybox.fx">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Test|Win32'">true</ExcludedFromBuild>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\App.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

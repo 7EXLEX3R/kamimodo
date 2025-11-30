@@ -1,0 +1,28 @@
+{
+    "$order": [
+        "motion-blur",
+        "bloom",
+        "sharpen",
+        "grain"
+    ],
+    "motion-blur": {
+        "numSamples": 8,
+        "intensity": 0.1,
+        "active": true
+    },
+    "bloom": {
+        "baseSaturation": 1,
+        "baseIntensity": 1,
+        "bloomSaturation": 1,
+        "bloomIntensity": 1,
+        "threshold": 0.1,
+        "numSamples": 15,
+        "pixelPerturbModifier": 8,
+        "pixelWeightModifier": 2,
+        "active": true
+    },
+    "sharpen": {
+        "intensity": 0.1,
+        "active": true
+    }
+}

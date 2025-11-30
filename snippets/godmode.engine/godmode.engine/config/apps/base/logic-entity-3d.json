@@ -1,0 +1,79 @@
+{
+    "position.x": 400,
+    "position.y": -300,
+    "name": "physicsentity3d",
+    "type": "object",
+    "properties": {
+        "position": {
+            "type": "object",
+            "properties": {
+                "x": {
+                    "type": "number",
+                    "default": 0
+                },
+                "y": {
+                    "type": "number",
+                    "default": 0
+                },
+                "z": {
+                    "type": "number",
+                    "default": 0
+                }
+            },
+            "$order": [
+                "x",
+                "y",
+                "z"
+            ]
+        },
+        "rotation": {
+            "type": "object",
+            "properties": {
+                "x": {
+                    "type": "number",
+                    "default": 0
+                },
+                "y": {
+                    "type": "number",
+                    "default": 0
+                },
+                "z": {
+                    "type": "number",
+                    "default": 0
+                }
+            },
+            "$order": [
+                "x",
+                "y",
+                "z"
+            ]
+        },
+        "scale": {
+            "type": "object",
+            "properties": {
+                "x": {
+                    "type": "number",
+                    "default": 0
+                },
+                "y": {
+                    "type": "number",
+                    "default": 0
+                },
+                "z": {
+                    "type": "number",
+                    "default": 0
+                }
+            },
+            "$order": [
+                "x",
+                "y",
+                "z"
+            ]
+        }
+    },
+    "$order": [
+        "position",
+        "rotation",
+        "scale"
+    ]
+}

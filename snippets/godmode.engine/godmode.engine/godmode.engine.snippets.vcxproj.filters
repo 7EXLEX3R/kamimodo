@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="godmode.engine">
+      <UniqueIdentifier>{5e47e037-f077-4b37-aae5-16ee9e8b5396}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="godmode.engine\core">
+      <UniqueIdentifier>{e9a72584-9dd1-438b-ab33-cdb35c70ef89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="godmode.engine\entity">
+      <UniqueIdentifier>{80b537ad-a46e-44cd-ae05-ad2e1bf5be69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="godmode.engine\graphics">
+      <UniqueIdentifier>{48659031-14c1-40b4-b3d3-89705caa6c6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="godmode.engine\logic">
+      <UniqueIdentifier>{0aa8638b-70e1-42af-9573-ada69d214d3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="godmode.engine\math">
+      <UniqueIdentifier>{655db505-697a-4174-bfc3-f11d568710ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="godmode.engine\physics">
+      <UniqueIdentifier>{ce008ab0-0dea-4f54-874c-e470db25ee10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="godmode.engine\entity\_2d">
+      <UniqueIdentifier>{36d886b1-7fcf-4e84-9221-5815a7caf518}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="godmode.engine\entity\_3d">
+      <UniqueIdentifier>{dbb3a3ad-9348-491f-8eb9-cd3d09579f0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="godmode.engine\logic\_2d">
+      <UniqueIdentifier>{9389033f-55b0-412c-a040-2ae012a8192d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="godmode.engine\logic\_3d">
+      <UniqueIdentifier>{e1b8e107-56b3-4332-a05a-0cabab5034c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="snippets">
+      <UniqueIdentifier>{f94291ff-fcce-4dff-9550-f36d6bb429d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="config">
+      <UniqueIdentifier>{437d2c3a-aa81-4b3a-835e-458b95f2b4fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="config\apps">
+      <UniqueIdentifier>{c20aa6df-6f58-4c0c-9d12-0a4c3ed9a8ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="config\apps\base">
+      <UniqueIdentifier>{9f9ad450-fbc7-44e6-bd57-2fc18c9789d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="config\apps\effects">
+      <UniqueIdentifier>{ef267e6c-a73c-46b8-bad1-1f4134c08bd6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="snippets\EngineCycle_Snippet.h">
+      <Filter>snippets</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="test.cpp" />
+    <ClCompile Include="godmode.engine\core\Content_Test.cpp">
+      <Filter>godmode.engine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="godmode.engine\entity\_2d\Sprite_Test.cpp">
+      <Filter>godmode.engine\entity\_2d</Filter>
+    </ClCompile>
+    <ClCompile Include="godmode.engine\entity\_3d\Object3d_Test.cpp">
+      <Filter>godmode.engine\entity\_3d</Filter>
+    </ClCompile>
+    <ClCompile Include="godmode.engine\graphics\Effect_Test.cpp">
+      <Filter>godmode.engine\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="godmode.engine\graphics\Effects_Test.cpp">
+      <Filter>godmode.engine\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="godmode.engine\graphics\Model_Test.cpp">
+      <Filter>godmode.engine\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="godmode.engine\graphics\PostProcessor_Test.cpp">
+      <Filter>godmode.engine\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="godmode.engine\graphics\PreProcessor_Test.cpp">
+      <Filter>godmode.engine\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="godmode.engine\graphics\Renderer_Test.cpp">
+      <Filter>godmode.engine\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="godmode.engine\graphics\Shader_Test.cpp">
+      <Filter>godmode.engine\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="godmode.engine\graphics\Texture_Test.cpp">
+      <Filter>godmode.engine\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="godmode.engine\logic\_3d\Camera3d_Test.cpp">
+      <Filter>godmode.engine\logic\_3d</Filter>
+    </ClCompile>
+    <ClCompile Include="godmode.engine\logic\_3d\Light_Test.cpp">
+      <Filter>godmode.engine\logic\_3d</Filter>
+    </ClCompile>
+    <ClCompile Include="godmode.engine\logic\_3d\Octree_Test.cpp">
+      <Filter>godmode.engine\logic\_3d</Filter>
+    </ClCompile>
+    <ClCompile Include="godmode.engine\logic\_3d\Scene3d_Test.cpp">
+      <Filter>godmode.engine\logic\_3d</Filter>
+    </ClCompile>
+    <ClCompile Include="godmode.engine\logic\_2d\Camera2d_Test.cpp">
+      <Filter>godmode.engine\logic\_2d</Filter>
+    </ClCompile>
+    <ClCompile Include="godmode.engine\logic\_2d\Quadtree_Test.cpp">
+      <Filter>godmode.engine\logic\_2d</Filter>
+    </ClCompile>
+    <ClCompile Include="godmode.engine\logic\Camera_Test.cpp">
+      <Filter>godmode.engine\logic</Filter>
+    </ClCompile>
+    <ClCompile Include="godmode.engine\logic\Lightning_Test.cpp">
+      <Filter>godmode.engine\logic</Filter>
+    </ClCompile>
+    <ClCompile Include="godmode.engine\logic\LogicEntity3d_Test.cpp">
+      <Filter>godmode.engine\logic</Filter>
+    </ClCompile>
+    <ClCompile Include="godmode.engine\math\float2_Test.cpp">
+      <Filter>godmode.engine\math</Filter>
+    </ClCompile>
+    <ClCompile Include="godmode.engine\math\float3_Test.cpp">
+      <Filter>godmode.engine\math</Filter>
+    </ClCompile>
+    <ClCompile Include="godmode.engine\math\float4_Test.cpp">
+      <Filter>godmode.engine\math</Filter>
+    </ClCompile>
+    <ClCompile Include="godmode.engine\math\float4x4_Test.cpp">
+      <Filter>godmode.engine\math</Filter>
+    </ClCompile>
+    <ClCompile Include="godmode.engine\physics\NxPhysicsScene3d_Test.cpp">
+      <Filter>godmode.engine\physics</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="config\async.json">
+      <Filter>config</Filter>
+    </None>
+    <None Include="config\effects.json">
+      <Filter>config</Filter>
+    </None>
+    <None Include="config\graphics.json">
+      <Filter>config</Filter>
+    </None>
+    <None Include="config\input.json">
+      <Filter>config</Filter>
+    </None>
+    <None Include="config\physics.json">
+      <Filter>config</Filter>
+    </None>
+    <None Include="config\sound.json">
+      <Filter>config</Filter>
+    </None>
+    <None Include="config\system.json">
+      <Filter>config</Filter>
+    </None>
+    <None Include="config\ui.json">
+      <Filter>config</Filter>
+    </None>
+    <None Include="config\apps\nx-character-controller.json">
+      <Filter>config\apps</Filter>
+    </None>
+    <None Include="config\apps\base\editor-settings.json">
+      <Filter>config\apps\base</Filter>
+    </None>
+    <None Include="config\apps\base\graphics-entity.json">
+      <Filter>config\apps\base</Filter>
+    </None>
+    <None Include="config\apps\base\logic-entity-3d.json">
+      <Filter>config\apps\base</Filter>
+    </None>
+    <None Include="config\apps\base\physics-entity-3d.json">
+      <Filter>config\apps\base</Filter>
+    </None>
+    <None Include="config\apps\base\physics-entity-3d-short.json">
+      <Filter>config\apps\base</Filter>
+    </None>
+    <None Include="config\apps\effects\ascii.json">
+      <Filter>config\apps\effects</Filter>
+    </None>
+    <None Include="config\apps\effects\bloom.json">
+      <Filter>config\apps\effects</Filter>
+    </None>
+    <None Include="config\apps\effects\blur.json">
+      <Filter>config\apps\effects</Filter>
+    </None>
+    <None Include="config\apps\effects\color-adjust.json">
+      <Filter>config\apps\effects</Filter>
+    </None>
+    <None Include="config\apps\effects\colorblindness.json">
+      <Filter>config\apps\effects</Filter>
+    </None>
+    <None Include="config\apps\effects\depth-of-field.json">
+      <Filter>config\apps\effects</Filter>
+    </None>
+    <None Include="config\apps\effects\fog.json">
+      <Filter>config\apps\effects</Filter>
+    </None>
+    <None Include="config\apps\effects\grain.json">
+      <Filter>config\apps\effects</Filter>
+    </None>
+    <None Include="config\apps\effects\halo-lens-flare.json">
+      <Filter>config\apps\effects</Filter>
+    </None>
+    <None Include="config\apps\effects\high-dynamic-range.json">
+      <Filter>config\apps\effects</Filter>
+    </None>
+    <None Include="config\apps\effects\light-shafts.json">
+      <Filter>config\apps\effects</Filter>
+    </None>
+    <None Include="config\apps\effects\motion-blur.json">
+      <Filter>config\apps\effects</Filter>
+    </None>
+    <None Include="config\apps\effects\sepia.json">
+      <Filter>config\apps\effects</Filter>
+    </None>
+    <None Include="config\apps\effects\sharpen.json">
+      <Filter>config\apps\effects</Filter>
+    </None>
+    <None Include="config\apps\effects\ssao.json">
+      <Filter>config\apps\effects</Filter>
+    </None>
+    <None Include="config\apps\effects\ssr.json">
+      <Filter>config\apps\effects</Filter>
+    </None>
+  </ItemGroup>
+</Project>

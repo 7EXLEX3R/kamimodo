@@ -1,0 +1,112 @@
+{
+    "position.x": 400,
+    "position.y": -300,
+    "name": "logicentity3d",
+    "type": "object",
+    "properties": {
+        "position": {
+            "type": "object",
+            "properties": {
+                "x": {
+                    "type": "number",
+                    "default": 0,
+                    "step": 0.25
+                },
+                "y": {
+                    "type": "number",
+                    "default": 0,
+                    "step": 0.25
+                },
+                "z": {
+                    "type": "number",
+                    "default": 0,
+                    "step": 0.25
+                }
+            },
+            "$order": [
+                "x",
+                "y",
+                "z"
+            ]
+        },
+        "rotation": {
+            "type": "object",
+            "properties": {
+                "x": {
+                    "type": "number",
+                    "default": 0,
+                    "step": 5
+                },
+                "y": {
+                    "type": "number",
+                    "default": 0,
+                    "step": 5
+                },
+                "z": {
+                    "type": "number",
+                    "default": 0,
+                    "step": 5
+                }
+            },
+            "$order": [
+                "x",
+                "y",
+                "z"
+            ]
+        },
+        "scale": {
+            "type": "object",
+            "properties": {
+                "x": {
+                    "type": "number",
+                    "default": 0,
+                    "step": 0.01
+                },
+                "y": {
+                    "type": "number",
+                    "default": 0,
+                    "step": 0.01
+                },
+                "z": {
+                    "type": "number",
+                    "default": 0,
+                    "step": 0.01
+                }
+            },
+            "$order": [
+                "x",
+                "y",
+                "z"
+            ]
+        },
+        "physicsEnabled": {
+            "type": "boolean",
+            "default": true
+        },
+        "mass": {
+            "type": "number",
+            "default": 10
+        },
+        "physicsEntityType": {
+            "type": "string",
+            "default": "BOX",
+            "enum": [
+                "NONE",
+                "PLANE",
+                "SPHERE",
+                "BOX",
+                "CAPSULE",
+                "CONVEX",
+                "MESH"
+            ]
+        }
+    },
+    "$order": [
+        "position",
+        "rotation",
+        "scale",
+        "physicsEnabled",
+        "physicsEntityType",
+        "mass"
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "position.x": 400,
+    "position.y": -300,
+    "name": "fog",
+    "type": "object",
+    "properties": {
+        "active": {
+            "type": "boolean",
+            "default": true
+        },
+        "startDistance": {
+            "type": "number",
+            "default": 0.9
+        },
+        "endDistance": {
+            "type": "number",
+            "default": 1
+        },
+        "cutDistance": {
+            "type": "number",
+            "default": 0.8
+        },
+        "maxValue": {
+            "type": "number",
+            "default": 1.1
+        },
+        "color": {
+            "type": "object",
+            "properties": {
+                "x": {
+                    "type": "number",
+                    "default": 0.58
+                },
+                "y": {
+                    "type": "number",
+                    "default": 0.56
+                },
+                "z": {
+                    "type": "number",
+                    "default": 0.5
+                },
+                "w": {
+                    "type": "number",
+                    "default": 0.1
+                }
+            },
+            "$order": [
+                "x",
+                "y",
+                "z",
+                "w"
+            ]
+        }
+    },
+    "$order": [
+        "active",
+        "startDistance",
+        "endDistance",
+        "cutDistance",
+        "maxValue",
+        "color"
+    ]
+}

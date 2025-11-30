@@ -1,0 +1,40 @@
+{
+    "position.x": 200,
+    "position.y": -300,
+    "name": "blur",
+    "type": "object",
+    "properties": {
+        "active": {
+            "type": "boolean",
+            "default": true
+        },
+        "numSamples": {
+            "type": "integer",
+            "default": 8
+        },
+        "pixelPerturbModifier": {
+            "type": "number",
+            "default": 4
+        },
+        "pixelWeightModifier": {
+            "type": "number",
+            "default": 4
+        },
+        "intensity": {
+            "type": "number",
+            "default": 0
+        },
+        "blur": {
+            "type": "number",
+            "default": 0
+        }
+    },
+    "$order": [
+        "active",
+        "numSamples",
+        "pixelPerturbModifier",
+        "pixelWeightModifier",
+        "intensity",
+        "blur"
+    ]
+}

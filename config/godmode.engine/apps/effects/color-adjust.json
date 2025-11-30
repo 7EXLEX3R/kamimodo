@@ -1,0 +1,58 @@
+{
+    "position.x": 400,
+    "position.y": -300,
+    "name": "coloradjust",
+    "type": "object",
+    "properties": {
+        "active": {
+            "type": "boolean",
+            "default": true
+        },
+        "brightness": {
+            "type": "number",
+            "default": 1
+        },
+        "contrast": {
+            "type": "number",
+            "default": 1.1
+        },
+        "gamma": {
+            "type": "number",
+            "default": 0.9
+        },
+        "color": {
+            "type": "object",
+            "properties": {
+                "x": {
+                    "type": "number",
+                    "default": 1
+                },
+                "y": {
+                    "type": "number",
+                    "default": 1
+                },
+                "z": {
+                    "type": "number",
+                    "default": 1
+                },
+                "w": {
+                    "type": "number",
+                    "default": 1
+                }
+            },
+            "$order": [
+                "x",
+                "y",
+                "z",
+                "w"
+            ]
+        }
+    },
+    "$order": [
+        "active",
+        "brightness",
+        "contrast",
+        "gamma",
+        "color"
+    ]
+}

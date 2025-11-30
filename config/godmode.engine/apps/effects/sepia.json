@@ -1,0 +1,20 @@
+{
+    "position.x": 900,
+    "position.y": -300,
+    "name": "sepia",
+    "type": "object",
+    "properties": {
+        "active": {
+            "type": "boolean",
+            "default": true
+        },
+        "intensity": {
+            "type": "number",
+            "default": 0
+        }
+    },
+    "$order": [
+        "active",
+        "intensity"
+    ]
+}

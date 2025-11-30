@@ -1,0 +1,36 @@
+{
+    "position.x": 400,
+    "position.y": -300,
+    "name": "colorblindness",
+    "type": "object",
+    "properties": {
+        "active": {
+            "type": "boolean",
+            "default": true
+        },
+        "intensity": {
+            "type": "number",
+            "default": 1
+        },
+        "colorblindnessType": {
+            "type": "string",
+            "default": "TRITANOMALY",
+            "enum": [
+                "NONE",
+                "PROTANOPIA",
+                "PROTANOMALY",
+                "DEUTERANOPIA",
+                "DEUTERANOMALY",
+                "TRITANOPIA",
+                "TRITANOMALY",
+                "ACHROMATOPSIA",
+                "ACHROMATOMALY"
+            ]
+        }
+    },
+    "$order": [
+        "active",
+        "intensity",
+        "colorblindnessType"
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "position.x": 400,
+    "position.y": -300,
+    "name": "graphicsentity",
+    "type": "object",
+    "properties": {
+        "visible": {
+            "type": "boolean",
+            "default": true
+        },
+        "wireframe": {
+            "type": "boolean",
+            "default": true
+        },
+        "translucent": {
+            "type": "boolean",
+            "default": true
+        },
+        "shadowcaster": {
+            "type": "boolean",
+            "default": true
+        },
+        "shadowable": {
+            "type": "boolean",
+            "default": true
+        },
+        "material": {
+            "type": "string",
+            "default": "",
+            "enum": [
+                "${materials}"
+            ]
+        }
+    },
+    "$order": [
+        "visible",
+        "wireframe",
+        "translucent",
+        "shadowcaster",
+        "shadowable",
+        "material"
+    ]
+}

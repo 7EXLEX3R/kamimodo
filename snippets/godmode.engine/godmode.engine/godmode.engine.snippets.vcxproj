@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Test|Win32">
+      <Configuration>Test</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{05F8F538-D4D0-4EA8-8132-96DF44C02CD5}</ProjectGuid>
+    <RootNamespace>godmode.engine</RootNamespace>
+    <Keyword>ManagedCProj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <ProjectName>godmode.engine.snippets</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <CLRSupport>false</CLRSupport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <CLRSupport>false</CLRSupport>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Test|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>12.0.30501.0</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(BOOST_DIR);$(BASS_DIR)\c;$(BASSWASAPI_DIR)\c;$(PHYSX_DIR)\PhysX_3.4\Include;$(PHYSX_DIR)\PxShared\include;$(PHYSX_DIR)\PxShared\src\foundation\include;$(PHYSX_DIR)\PxShared\src\fastxml\include;$(KINECTSDK10_DIR)inc;$(DXSDK_DIR)\Include;$(KAMIMODO_SDK_DIR)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>link$;runtime$;WIN32;_DEBUG;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(BOOST_DIR)\bin.v2\libs\serialization\build\msvc-14.0\debug\link-static\runtime-link-static\threading-multi;$(BOOST_DIR)\bin.v2\libs\thread\build\msvc-14.0\debug\link-static\runtime-link-static\threadapi-win32\threading-multi;$(BOOST_DIR)\bin.v2\libs\date_time\build\msvc-14.0\debug\link-static\runtime-link-static\threading-multi;$(BOOST_DIR)\bin.v2\libs\chrono\build\msvc-14.0\debug\link-static\runtime-link-static\threading-multi;$(BOOST_DIR)\bin.v2\libs\filesystem\build\msvc-14.0\debug\link-static\runtime-link-static\threading-multi;$(BOOST_DIR)\bin.v2\libs\regex\build\msvc-14.0\debug\link-static\runtime-link-static\threading-multi;$(BASS_DIR)\c;$(BASSWASAPI_DIR)\c;$(KAMIMODO_SDK_DIR)\lib;$(PHYSX_DIR)\PhysX_3.4\Lib\vc14win32;$(PHYSX_DIR)\PxShared\lib\vc14win32;$(KINECTSDK10_DIR)lib/x86;$(DXSDK_DIR)\Lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AssemblyDebug>true</AssemblyDebug>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Test|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(BOOST_DIR);$(BASS_DIR)\c;$(BASSWASAPI_DIR)\c;$(PHYSX_DIR)\PhysX_3.4\Include;$(PHYSX_DIR)\PxShared\include;$(PHYSX_DIR)\PxShared\src\foundation\include;$(PHYSX_DIR)\PxShared\src\fastxml\include;$(KINECTSDK10_DIR)inc;$(DXSDK_DIR)\Include;$(KAMIMODO_SDK_DIR)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>link$;test$;serialization$;WIN32;_DEBUG;NOMINMAX;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ShowIncludes>false</ShowIncludes>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(BOOST_DIR)\bin.v2\libs\test\build\msvc-14.0\debug\link-static\runtime-link-static\threading-multi;$(BOOST_DIR)\bin.v2\libs\serialization\build\msvc-14.0\debug\link-static\runtime-link-static\threading-multi;$(BOOST_DIR)\bin.v2\libs\thread\build\msvc-14.0\debug\link-static\runtime-link-static\threadapi-win32\threading-multi;$(BOOST_DIR)\bin.v2\libs\date_time\build\msvc-14.0\debug\link-static\runtime-link-static\threading-multi;$(BOOST_DIR)\bin.v2\libs\chrono\build\msvc-14.0\debug\link-static\runtime-link-static\threading-multi;$(BOOST_DIR)\bin.v2\libs\filesystem\build\msvc-14.0\debug\link-static\runtime-link-static\threading-multi;$(BOOST_DIR)\bin.v2\libs\regex\build\msvc-14.0\debug\link-static\runtime-link-static\threading-multi;$(BASS_DIR)\c;$(BASSWASAPI_DIR)\c;$(KAMIMODO_SDK_DIR)\lib;$(PHYSX_DIR)\PhysX_3.4\Lib\vc14win32;$(PHYSX_DIR)\PxShared\lib\vc14win32;$(KINECTSDK10_DIR)lib/x86;$(DXSDK_DIR)\Lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AssemblyDebug>true</AssemblyDebug>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="snippets\EngineCycle_Snippet.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="godmode.engine\core\Content_Test.cpp" />
+    <ClCompile Include="godmode.engine\entity\_2d\Sprite_Test.cpp" />
+    <ClCompile Include="godmode.engine\entity\_3d\Object3d_Test.cpp" />
+    <ClCompile Include="godmode.engine\graphics\Effect_Test.cpp" />
+    <ClCompile Include="godmode.engine\graphics\Effects_Test.cpp" />
+    <ClCompile Include="godmode.engine\graphics\Model_Test.cpp" />
+    <ClCompile Include="godmode.engine\graphics\PostProcessor_Test.cpp" />
+    <ClCompile Include="godmode.engine\graphics\PreProcessor_Test.cpp" />
+    <ClCompile Include="godmode.engine\graphics\Renderer_Test.cpp" />
+    <ClCompile Include="godmode.engine\graphics\Shader_Test.cpp" />
+    <ClCompile Include="godmode.engine\graphics\Texture_Test.cpp" />
+    <ClCompile Include="godmode.engine\logic\Camera_Test.cpp" />
+    <ClCompile Include="godmode.engine\logic\Lightning_Test.cpp" />
+    <ClCompile Include="godmode.engine\logic\LogicEntity3d_Test.cpp" />
+    <ClCompile Include="godmode.engine\logic\_2d\Camera2d_Test.cpp" />
+    <ClCompile Include="godmode.engine\logic\_2d\Quadtree_Test.cpp" />
+    <ClCompile Include="godmode.engine\logic\_3d\Camera3d_Test.cpp" />
+    <ClCompile Include="godmode.engine\logic\_3d\Light_Test.cpp" />
+    <ClCompile Include="godmode.engine\logic\_3d\Octree_Test.cpp" />
+    <ClCompile Include="godmode.engine\logic\_3d\Scene3d_Test.cpp" />
+    <ClCompile Include="godmode.engine\math\float2_Test.cpp" />
+    <ClCompile Include="godmode.engine\math\float3_Test.cpp" />
+    <ClCompile Include="godmode.engine\math\float4_Test.cpp" />
+    <ClCompile Include="godmode.engine\math\float4x4_Test.cpp" />
+    <ClCompile Include="godmode.engine\physics\NxPhysicsScene3d_Test.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="test.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="config\apps\base\editor-settings.json" />
+    <None Include="config\apps\base\graphics-entity.json" />
+    <None Include="config\apps\base\logic-entity-3d.json" />
+    <None Include="config\apps\base\physics-entity-3d-short.json" />
+    <None Include="config\apps\base\physics-entity-3d.json" />
+    <None Include="config\apps\effects\ascii.json" />
+    <None Include="config\apps\effects\bloom.json" />
+    <None Include="config\apps\effects\blur.json" />
+    <None Include="config\apps\effects\color-adjust.json" />
+    <None Include="config\apps\effects\colorblindness.json" />
+    <None Include="config\apps\effects\depth-of-field.json" />
+    <None Include="config\apps\effects\fog.json" />
+    <None Include="config\apps\effects\grain.json" />
+    <None Include="config\apps\effects\halo-lens-flare.json" />
+    <None Include="config\apps\effects\high-dynamic-range.json" />
+    <None Include="config\apps\effects\light-shafts.json" />
+    <None Include="config\apps\effects\motion-blur.json" />
+    <None Include="config\apps\effects\sepia.json" />
+    <None Include="config\apps\effects\sharpen.json" />
+    <None Include="config\apps\effects\ssao.json" />
+    <None Include="config\apps\effects\ssr.json" />
+    <None Include="config\apps\nx-character-controller.json" />
+    <None Include="config\async.json" />
+    <None Include="config\effects.json" />
+    <None Include="config\graphics.json" />
+    <None Include="config\input.json" />
+    <None Include="config\physics.json" />
+    <None Include="config\sound.json" />
+    <None Include="config\system.json" />
+    <None Include="config\ui.json" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

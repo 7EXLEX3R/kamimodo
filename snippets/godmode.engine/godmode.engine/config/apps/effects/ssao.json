@@ -1,0 +1,40 @@
+{
+    "position.x": 1100,
+    "position.y": -300,
+    "name": "ssao",
+    "type": "object",
+    "properties": {
+        "active": {
+            "type": "boolean",
+            "default": true
+        },
+        "sampleRadius": {
+            "type": "number",
+            "default": 0.75
+        },
+        "intensity": {
+            "type": "number",
+            "default": 0.3
+        },
+        "scale": {
+            "type": "number",
+            "default": 1
+        },
+        "bias": {
+            "type": "number",
+            "default": 0.2
+        },
+        "range": {
+            "type": "number",
+            "default": 0.5
+        }
+    },
+    "$order": [
+        "active",
+        "sampleRadius",
+        "intensity",
+        "scale",
+        "bias",
+        "range"
+    ]
+}

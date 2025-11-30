@@ -1,0 +1,45 @@
+{
+    "position.x": 300,
+    "position.y": -300,
+    "name": "depthoffield",
+    "type": "object",
+    "properties": {
+        "active": {
+            "type": "boolean",
+            "default": true
+        },
+        "numSamples": {
+            "type": "integer",
+            "default": 15
+        },
+        "focalPlaneDistance": {
+            "type": "number",
+            "default": 0
+        },
+        "focusBias": {
+            "type": "number",
+            "default": 17.5
+        },
+        "pixelPerturbModifier": {
+            "type": "number",
+            "default": 4
+        },
+        "pixelWeightModifier": {
+            "type": "number",
+            "default": 4
+        },
+        "maxValue": {
+            "type": "number",
+            "default": 0.75
+        }
+    },
+    "$order": [
+        "active",
+        "numSamples",
+        "focalPlaneDistance",
+        "focusBias",
+        "pixelPerturbModifier",
+        "pixelWeightModifier",
+        "maxValue"
+    ]
+}

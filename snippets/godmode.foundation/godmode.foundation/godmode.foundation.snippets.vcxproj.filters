@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="godmode.foundation\file\Directory_Test.cpp">
+      <Filter>godmode.foundation\file</Filter>
+    </ClCompile>
+    <ClCompile Include="godmode.foundation\file\JsonFile_Test.cpp">
+      <Filter>godmode.foundation\file</Filter>
+    </ClCompile>
+    <ClCompile Include="godmode.foundation\file\TextFile_Test.cpp">
+      <Filter>godmode.foundation\file</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="test.cpp" />
+    <ClCompile Include="godmode.foundation\types\Json_Test.cpp">
+      <Filter>godmode.foundation\types</Filter>
+    </ClCompile>
+    <ClCompile Include="godmode.foundation\types\Map_Test.cpp">
+      <Filter>godmode.foundation\types</Filter>
+    </ClCompile>
+    <ClCompile Include="godmode.foundation\types\MappedList_Test.cpp">
+      <Filter>godmode.foundation\types</Filter>
+    </ClCompile>
+    <ClCompile Include="godmode.foundation\types\String_Test.cpp">
+      <Filter>godmode.foundation\types</Filter>
+    </ClCompile>
+    <ClCompile Include="godmode.foundation\types\List_Test.cpp">
+      <Filter>godmode.foundation\types</Filter>
+    </ClCompile>
+    <ClCompile Include="godmode.foundation\time\Date_Test.cpp">
+      <Filter>godmode.foundation\time</Filter>
+    </ClCompile>
+    <ClCompile Include="godmode.foundation\events\Event_Test.cpp">
+      <Filter>godmode.foundation\events</Filter>
+    </ClCompile>
+    <ClCompile Include="godmode.foundation\system\Config_Test.cpp">
+      <Filter>godmode.foundation\system</Filter>
+    </ClCompile>
+    <ClCompile Include="godmode.foundation\$_preprocessor_Test.cpp">
+      <Filter>godmode.foundation</Filter>
+    </ClCompile>
+    <ClCompile Include="godmode.foundation\types\Enum_Test.cpp">
+      <Filter>godmode.foundation\types</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="godmode.foundation\types\Json_Test.h">
+      <Filter>godmode.foundation\types</Filter>
+    </ClInclude>
+    <ClInclude Include="godmode.foundation\events\Event_Test.h">
+      <Filter>godmode.foundation\events</Filter>
+    </ClInclude>
+    <ClInclude Include="godmode.foundation\$_preprocessor_Test.h">
+      <Filter>godmode.foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="snippets\LLMChat_Snippet.h">
+      <Filter>snippets</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="godmode.foundation">
+      <UniqueIdentifier>{bcbd020a-9f3f-4cae-ac27-89d260fa631e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="godmode.foundation\events">
+      <UniqueIdentifier>{7ec7f475-f113-4cf5-a559-a5709d5b9d6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="godmode.foundation\file">
+      <UniqueIdentifier>{ec567848-df83-44fc-8378-4f347b8746d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="godmode.foundation\system">
+      <UniqueIdentifier>{02c89ee2-4f1d-44a9-911f-2c8e62c613ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="godmode.foundation\time">
+      <UniqueIdentifier>{525b3d96-10bb-4d28-b253-58219b24b74b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="godmode.foundation\types">
+      <UniqueIdentifier>{d6ee72f2-86fa-4dc7-9252-cc8d9cc2e0dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="snippets">
+      <UniqueIdentifier>{6801e605-c411-4aee-ac8f-42c4cf3b4908}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="config">
+      <UniqueIdentifier>{48c06c2a-20aa-497c-aff4-5485de47c0e0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="config\ai.json">
+      <Filter>config</Filter>
+    </None>
+    <None Include="config\async.json">
+      <Filter>config</Filter>
+    </None>
+    <None Include="config\log.json">
+      <Filter>config</Filter>
+    </None>
+    <None Include="config\system.json">
+      <Filter>config</Filter>
+    </None>
+  </ItemGroup>
+</Project>

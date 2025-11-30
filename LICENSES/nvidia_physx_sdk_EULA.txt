@@ -1,0 +1,7 @@
+NVIDIA PhysX SDK License
+Version: 3.4
+
+This SDK or redistributable components are subject to the NVIDIA PhysX SDK EULA.
+
+Please review the full license in the included file:
+- LICENSES/nvidia_physx_sdk_EULA/APEX_SDK_EULA.pdf

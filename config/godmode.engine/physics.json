@@ -1,0 +1,24 @@
+{
+    "physics": {
+        "gravity": 9.81
+    },
+    "characterController": {
+        "maxCrouchVelocity": 1,
+        "maxWalkVelocity": 8,
+        "maxRunVelocity": 5,
+        "crouchAcceleration": 250,
+        "walkAcceleration": 250,
+        "runAcceleration": 250,
+        "idleAcceleration": 250,
+        "airControl": 0.05,
+        "jumpStartVelocity": 3.66,
+        "jumpGravity": 9.81,
+        "maxJumpVelocity": 20
+    },
+    "player": {
+        "spinAngularVelocity": 0.5,
+        "spinTransition": 10.0,
+        "surfaceGravityModifier": 0.25,
+        "surfaceGravityDistance": 1.5
+    }
+}

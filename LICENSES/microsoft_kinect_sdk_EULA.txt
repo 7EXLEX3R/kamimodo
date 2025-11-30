@@ -1,0 +1,7 @@
+Microsoft Kinect for Windows SDK License
+Version: 1.8
+
+This SDK or redistributable components are subject to Microsoft SDK EULA for version 1.8.
+
+Please review the full license in the included file:
+- LICENSES/microsoft_kinect_sdk_EULA/SDKEula.rtf

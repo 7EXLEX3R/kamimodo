@@ -1,0 +1,116 @@
+{
+    "position.x": 100,
+    "position.y": -300,
+    "name": "highdynamicrange",
+    "type": "object",
+    "properties": {
+        "active": {
+            "type": "boolean",
+            "default": true
+        },
+        "baseSaturation": {
+            "type": "number",
+            "default": 0.9
+        },
+        "baseIntensity": {
+            "type": "number",
+            "default": 1
+        },
+        "bloomSaturation": {
+            "type": "number",
+            "default": 0.8
+        },
+        "bloomIntensity": {
+            "type": "number",
+            "default": 1.1
+        },
+        "threshold": {
+            "type": "number",
+            "default": 0.2
+        },
+        "numSamples": {
+            "type": "integer",
+            "default": 15
+        },
+        "pixelPerturbModifier": {
+            "type": "number",
+            "default": 4
+        },
+        "pixelWeightModifier": {
+            "type": "number",
+            "default": 4
+        },
+        "middleGray": {
+            "type": "number",
+            "default": 4
+        },
+        "luminanceVector": {
+            "type": "object",
+            "properties": {
+                "x": {
+                    "type": "number",
+                    "default": 0.2125
+                },
+                "y": {
+                    "type": "number",
+                    "default": 0.7154
+                },
+                "z": {
+                    "type": "number",
+                    "default": 0.0721
+                }
+            },
+            "$order": [
+                "x",
+                "y",
+                "z"
+            ]
+        },
+        "blueShiftVector": {
+            "type": "object",
+            "properties": {
+                "x": {
+                    "type": "number",
+                    "default": 1.05
+                },
+                "y": {
+                    "type": "number",
+                    "default": 0.97
+                },
+                "z": {
+                    "type": "number",
+                    "default": 1.27
+                }
+            },
+            "$order": [
+                "x",
+                "y",
+                "z"
+            ]
+        },
+        "isToneMappingEnabled": {
+            "type": "boolean",
+            "default": true
+        },
+        "isBlueShiftEnabled": {
+            "type": "boolean",
+            "default": false
+        }
+    },
+    "$order": [
+        "active",
+        "baseSaturation",
+        "baseIntensity",
+        "bloomSaturation",
+        "bloomIntensity",
+        "threshold",
+        "numSamples",
+        "pixelPerturbModifier",
+        "pixelWeightModifier",
+        "middleGray",
+        "luminanceVector",
+        "blueShiftVector",
+        "isToneMappingEnabled",
+        "isBlueShiftEnabled"
+    ]
+}

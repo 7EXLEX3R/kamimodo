@@ -1,0 +1,50 @@
+{
+    "position.x": 1200,
+    "position.y": -300,
+    "name": "ssr",
+    "type": "object",
+    "properties": {
+        "active": {
+            "type": "boolean",
+            "default": true
+        },
+        "baseLength": {
+            "type": "number",
+            "default": 2
+        },
+        "fresnelPower": {
+            "type": "number",
+            "default": 3
+        },
+        "fresnelBias": {
+            "type": "number",
+            "default": 0
+        },
+        "blurBias": {
+            "type": "number",
+            "default": 4.0
+        },
+        "blurModifier": {
+            "type": "number",
+            "default": 4.0
+        },
+        "blurSamples": {
+            "type": "integer",
+            "default": 2
+        },
+        "numSamples": {
+            "type": "integer",
+            "default": 10
+        }
+    },
+    "$order": [
+        "active",
+        "baseLength",
+        "fresnelPower",
+        "fresnelBias",
+        "blurBias",
+        "blurModifier",
+        "blurSamples",
+        "numSamples"
+    ]
+}

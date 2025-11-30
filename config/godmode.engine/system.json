@@ -1,0 +1,24 @@
+{
+    "app": "EngineCycleSnippet",
+    "engine": "GodmodeEngine",
+    "display": {
+        "width": 320,
+        "height": 200,
+        "vsync": false,
+        "fullScreen": false
+    },
+    "window": {
+        "name": "godmode.engine",
+        "width": "auto",
+        "height": "auto",
+        "x": 0,
+        "y": 0,
+        "cornerRadius": 0,
+        "titleBar": true,
+        "alwaysOnTop": false,
+        "clientAreaDragEnabled": false
+    },
+    "lockCursor": false,
+    "showCursor": false,
+    "pauseAppWhenInactive": false
+}

@@ -1,0 +1,98 @@
+{
+    "position.x": 500,
+    "position.y": -300,
+    "name": "nxcharactercontroller",
+    "type": "object",
+    "properties": {
+        "maxCrouchVelocity": {
+            "type": "integer",
+            "default": 5,
+            "min": 0,
+            "max": 10,
+            "step": 0.5
+        },
+        "maxWalkVelocity": {
+            "type": "integer",
+            "default": 5,
+            "min": 0,
+            "max": 10,
+            "step": 0.5
+        },
+        "maxRunVelocity": {
+            "type": "integer",
+            "default": 5,
+            "min": 0,
+            "max": 10,
+            "step": 0.5
+        },
+        "crouchAcceleration": {
+            "type": "integer",
+            "default": 5,
+            "min": 0,
+            "max": 10,
+            "step": 0.5
+        },
+        "walkAcceleration": {
+            "type": "integer",
+            "default": 5,
+            "min": 0,
+            "max": 10,
+            "step": 0.5
+        },
+        "runAcceleration": {
+            "type": "integer",
+            "default": 5,
+            "min": 0,
+            "max": 10,
+            "step": 0.5
+        },
+        "idleAcceleration": {
+            "type": "integer",
+            "default": 5,
+            "min": 0,
+            "max": 10,
+            "step": 0.5
+        },
+        "airControl": {
+            "type": "number",
+            "default": 5,
+            "min": 0,
+            "max": 10,
+            "step": 0.5
+        },
+        "jumpStartVelocity": {
+            "type": "number",
+            "default": 5,
+            "min": 0,
+            "max": 10,
+            "step": 0.5
+        },
+        "jumpGravity": {
+            "type": "number",
+            "default": 5,
+            "min": 0,
+            "max": 10,
+            "step": 0.5
+        },
+        "maxJumpVelocity": {
+            "type": "integer",
+            "default": 5,
+            "min": 0,
+            "max": 10,
+            "step": 0.5
+        }
+    },
+    "required": [
+        "maxCrouchVelocity",
+        "maxWalkVelocity",
+        "maxRunVelocity",
+        "crouchAcceleration",
+        "walkAcceleration",
+        "runAcceleration",
+        "idleAcceleration",
+        "airControl",
+        "jumpStartVelocity",
+        "jumpGravity",
+        "maxJumpVelocity"
+    ]
+}

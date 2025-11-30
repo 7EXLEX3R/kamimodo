@@ -1,0 +1,14 @@
+{
+    "keyboard": {
+        "enabled": true
+    },
+    "mouse": {
+        "enabled": true
+    },
+    "gamepad": {
+        "enabled": true
+    },
+    "kinect": {
+        "enabled": false
+    }
+}

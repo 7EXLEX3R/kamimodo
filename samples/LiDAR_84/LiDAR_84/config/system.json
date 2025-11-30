@@ -1,0 +1,21 @@
+{
+    "display": {
+        "width": 640,
+        "height": 640,
+        "vsync": false,
+        "fullScreen": false
+    },
+    "window": {
+        "name": "LiDAR_84",
+        "width": 640,
+        "height": 640,
+        "x": "auto",
+        "y": "auto",
+        "cornerRadius": 32,
+        "clientAreaDragEnabled": true,
+        "titleBar": false,
+        "alwaysOnTop": true
+    },
+    "lockCursor": true,
+    "showCursor": false
+}

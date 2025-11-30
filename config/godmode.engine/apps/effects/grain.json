@@ -1,0 +1,40 @@
+{
+    "position.x": 500,
+    "position.y": -300,
+    "name": "grain",
+    "type": "object",
+    "properties": {
+        "active": {
+            "type": "boolean",
+            "default": true
+        },
+        "power": {
+            "type": "number",
+            "default": 0.02
+        },
+        "isColored": {
+            "type": "boolean",
+            "default": false
+        },
+        "colorAmount": {
+            "type": "number",
+            "default": 0.6
+        },
+        "size": {
+            "type": "number",
+            "default": 1.6
+        },
+        "brightness": {
+            "type": "number",
+            "default": 1.0
+        }
+    },
+    "$order": [
+        "active",
+        "power",
+        "isColored",
+        "colorAmount",
+        "size",
+        "brightness"
+    ]
+}

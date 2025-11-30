@@ -1,0 +1,169 @@
+{
+    "$order": [
+        "sharpen",
+        "high-dynamic-range",
+        "bloom",
+        "motion-blur",
+        "grain"
+    ],
+    "ascii": {
+        "intensity": 1,
+        "fragmentSize": 16,
+        "active": true
+    },
+    "bloom": {
+        "baseSaturation": 1,
+        "baseIntensity": 1,
+        "bloomSaturation": 1,
+        "bloomIntensity": 1,
+        "threshold": 0.5,
+        "numSamples": 15,
+        "pixelPerturbModifier": 4,
+        "pixelWeightModifier": 4,
+        "active": true
+    },
+    "blur": {
+        "numSamples": 8,
+        "pixelPerturbModifier": 4,
+        "pixelWeightModifier": 4,
+        "intensity": 1,
+        "blur": 1,
+        "active": true
+    },
+    "color-adjust": {
+        "brightness": 1,
+        "contrast": 1.1,
+        "gamma": 0.9,
+        "color": {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "w": 1
+        },
+        "hueRotation": 0,
+        "active": true
+    },
+    "colorblindness": {
+        "colorBlindnessType": "TRITANOMALY",
+        "intensity": 1,
+        "active": true
+    },
+    "depth-of-field": {
+        "focalPlaneDistance": 0,
+        "focusBias": 17.5,
+        "numSamples": 15,
+        "pixelPerturbModifier": 4,
+        "pixelWeightModifier": 4,
+        "maxValue": 0.75,
+        "active": true
+    },
+    "edge-detect": {
+        "intensity": 1,
+        "active": true
+    },
+    "fog": {
+        "startDistance": 1,
+        "endDistance": 25,
+        "cutDistance": 250,
+        "color": {
+            "x": 0.58,
+            "y": 0.56,
+            "z": 0.5,
+            "w": 0.1
+        },
+        "maxValue": 0.8,
+        "active": true
+    },
+    "grain": {
+        "power": 0.02,
+        "isColored": false,
+        "colorAmount": 0.6,
+        "size": 1.6,
+        "brightness": 1.0,
+        "active": true
+    },
+    "grayscale": {
+        "intensity": 1,
+        "active": true
+    },
+    "halo-lens-flare": {
+        "threshold": 0.7,
+        "numSamples": 15,
+        "pixelPerturbModifier": 4,
+        "pixelWeightModifier": 4,
+        "intensity": 0.4,
+        "bias": 10.0,
+        "flaresCount": 8,
+        "dispersal": 0.3,
+        "haloWidth": 0.6,
+        "chromeDistortion": 3,
+        "dirtIntensity": 0.5,
+        "baseIntensity": 1,
+        "active": true
+    },
+    "high-dynamic-range": {
+        "baseSaturation": 1,
+        "baseIntensity": 1,
+        "bloomSaturation": 1,
+        "bloomIntensity": 1,
+        "threshold": 0.3,
+        "numSamples": 16,
+        "pixelPerturbModifier": 4,
+        "pixelWeightModifier": 4,
+        "luminanceVector": {
+            "x": 0.2125,
+            "y": 0.7154,
+            "z": 0.0721
+        },
+        "blueShiftVector": {
+            "x": 1.05,
+            "y": 0.97,
+            "z": 1.27
+        },
+        "middleGray": 0.6,
+        "isToneMappingEnabled": true,
+        "isBlueShiftEnabled": false,
+        "active": true
+    },
+    "light-shafts": {
+        "threshold": 0.5,
+        "maxValue": 1,
+        "decay": 0.97,
+        "density": 0.6,
+        "numSamples": 100,
+        "active": true
+    },
+    "motion-blur": {
+        "numSamples": 10,
+        "intensity": 0.1,
+        "active": true
+    },
+    "sepia": {
+        "intensity": 1,
+        "active": true
+    },
+    "sharpen": {
+        "intensity": 0.2,
+        "active": true
+    },
+    "ssao": {
+        "randomTexture": "textures/random.jpg",
+        "randomTextureSize": 64,
+        "sampleRadius": 0.75,
+        "intensity": 0.3,
+        "scale": 1,
+        "bias": 0.2,
+        "range": 0.5,
+        "active": false
+    },
+    "ssr": {
+        "numSamples": 10,
+        "baseLength": 2,
+        "fresnelPower": 3,
+        "fresnelBias": 0,
+        "blurBias": 4.0,
+        "blurModifier": 4.0,
+        "blurSamples": 2,
+        "active": false
+    }
+}

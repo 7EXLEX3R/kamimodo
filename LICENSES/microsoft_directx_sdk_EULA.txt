@@ -1,0 +1,13 @@
+Microsoft DirectX SDK License
+Version: June 2010
+
+This SDK or redistributable components are subject to Microsoft license terms.
+Please review the full license in the included files:
+
+- LICENSES/microsoft_directx_sdk_EULA/DirectX End User EULA.txt
+- LICENSES/microsoft_directx_sdk_EULA/directx redist.txt
+- LICENSES/microsoft_directx_sdk_EULA/DirectX SDK EULA.rtf
+- LICENSES/microsoft_directx_sdk_EULA/DirectX SDK EULA.txt
+- LICENSES/microsoft_directx_sdk_EULA/libjpg-readme.txt
+- LICENSES/microsoft_directx_sdk_EULA/libpng-license.txt
+- LICENSES/microsoft_directx_sdk_EULA/Roland-license.txt

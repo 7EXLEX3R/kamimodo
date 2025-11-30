@@ -1,0 +1,20 @@
+{
+    "display": {
+        "width": 800,
+        "height": 800,
+        "vsync": true,
+        "fullScreen": false
+    },
+    "window": {
+        "name": "999",
+        "width": "auto",
+        "height": "auto",
+        "x": "auto",
+        "y": "auto",
+        "titleBar": false,
+        "alwaysOnTop": true,
+        "clientAreaDragEnabled": true
+    },
+    "lockCursor": false,
+    "showCursor": true
+}

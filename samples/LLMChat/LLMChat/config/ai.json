@@ -1,0 +1,12 @@
+{
+    "llmController": {
+        "port": 3001,
+        "url": "http://localhost:3001",
+        "promptRoute": "/prompt"
+    },
+    "ollama": {
+        "url": "http://157.157.221.29:20612",
+        "model": "finalend/hermes-3-llama-3.1",
+        "localRun": false
+    }
+}

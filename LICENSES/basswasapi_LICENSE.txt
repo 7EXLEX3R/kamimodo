@@ -1,0 +1,13 @@
+BASSWASAPI Add-On
+Copyright © 1999-2025 Un4seen Developments Ltd.
+https://www.un4seen.com/basswasapi.html
+
+BASSWASAPI is an add-on to the BASS Audio Library and is subject to the same
+licensing conditions as BASS.
+
+It may be used freely for non-commercial purposes.
+Commercial use requires a valid BASS license from Un4seen Developments.
+See https://www.un4seen.com for full licensing terms.
+
+Redistribution of this add-on must comply with the BASS license terms.
+This SDK includes or links to BASS only for demonstration purposes.

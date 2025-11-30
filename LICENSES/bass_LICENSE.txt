@@ -1,0 +1,12 @@
+BASS Audio Library
+Copyright © 1999-2025 Un4seen Developments Ltd.
+https://www.un4seen.com/bass.html
+
+BASS is a proprietary audio library.
+
+It may be used freely for non-commercial purposes.
+Commercial use requires a valid license purchased from Un4seen Developments.
+See https://www.un4seen.com for full licensing terms.
+
+Redistribution of the BASS DLLs or code must comply with the BASS license.
+This SDK includes or links to BASS only for demonstration purposes.

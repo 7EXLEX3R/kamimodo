@@ -1,0 +1,36 @@
+kamimodo SDK™ © 2025 ____l____e____x____e____r____
+
+Trademarks:
+kamimodo™ and kamimodo SDK™ are trademarks of ____l____e____x____e____r____.
+
+This SDK includes or links against the following third-party components:
+
+| Library                              | Version   | License                                   | Source / URL                                                                                       | Type / Integration                           |
+|--------------------------------------|-----------|-------------------------------------------|----------------------------------------------------------------------------------------------------|----------------------------------------------|
+| Microsoft Visual C++ Redistributable | msvc-140  | Microsoft Visual C++ Redistributable EULA | https://visualstudio.microsoft.com/license-terms/mt171552/                                         | External SDK / runtime provided by installer |
+| Boost                                | 1.69.0    | Boost Software License 1.0                | %BOOST_DIR%\LICENSE_1_0.txt https://www.boost.org/LICENSE_1_0.txt                                  | External SDK / runtime provided by installer |
+| NVIDIA PhysX SDK                     | 3.4       | NVIDIA PhysX SDK EULA                     | %PHYSX_DIR%\APEX_1.4\APEX_SDK_EULA.pdf https://github.com/NVIDIAGameWorks/PhysX-3.4                | External SDK / runtime provided by installer |
+| Microsoft DirectX SDK                | June 2010 | Microsoft DirectX SDK EULA                | %DXSDK_DIR%\Documentation\* /                                                                      | External SDK / runtime provided by installer |
+| Microsoft Kinect SDK                 | 1.8       | Microsoft Kinect SDK EULA                 | %KINECTSDK10_DIR%\SDKEula.rtf / https://learn.microsoft.com/en-us/previous-versions/windows/kinect | External SDK / runtime provided by installer |
+| BASS / BASSWASAPI                    | 2.4       | Proprietary (Un4seen Developments)        | https://www.un4seen.com/bass.html / https://www.un4seen.com/basswasapi.html                        | External SDK / runtime provided by installer |
+| JsonCpp                              | 1.9.5     | MIT                                       | https://github.com/open-source-parsers/jsoncpp/blob/master/LICENSE                                 | Included source code / integrated with SDK   |
+| dirent                               | 1.0       | MIT                                       | https://github.com/tronkko/dirent/blob/master/LICENSE                                              | Included source code / integrated with SDK   |
+
+License texts for all third-party components are located in the `LICENSES/` directory.
+
+The following third-party tools are **not integral part of the SDK**, but are referenced in samples / build process:
+
+| Tool                                              | License                                          | Source / URL                                                             | Type / Integration                    |
+|---------------------------------------------------|--------------------------------------------------|--------------------------------------------------------------------------|---------------------------------------|
+| Ollama                                            | MIT License                                      | https://github.com/ollama/ollama/blob/main/LICENSE                       | External tool / used in samples       |
+| finalend/hermes-3-llama-3.1 (8B) - Ollama model   | Llama 3.1 Community License (Meta)               | https://ollama.com/finalend/hermes-3-llama-3.1:latest/blobs/0ba8f0e314b4 | External tool / used in samples       |
+| Node.js                                           | MIT License                                      | https://github.com/nodejs/node/blob/main/LICENSE                         | External tool / used in samples/build |
+| Inno Setup 6                                      | Inno Setup License (free for non-commercial use) | https://jrsoftware.org/isorder.php#commercialuser                        | External tool / used in build         |
+
+Redistribution Guidelines:
+- Do not remove or modify third-party license files.
+- Include the full `LICENSES/` directory when redistributing binaries.
+- Users must accept vendor EULAs for all redistributable components before use.
+- For commercial use of BASS, BASSWASAPI, and NVIDIA PhysX SDK, follow the respective vendor license requirements.
+
+For licensing or trademark inquiries, contact: 7EX@LEX3R.com

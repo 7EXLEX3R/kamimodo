@@ -1,0 +1,20 @@
+{
+    "display": {
+        "width": 1024,
+        "height": 600,
+        "vsync": false,
+        "fullScreen": false
+    },
+    "window": {
+        "name": "Kinect",
+        "width": "auto",
+        "height": "auto",
+        "x": "auto",
+        "y": "auto",
+        "titleBar": false,
+        "alwaysOnTop": true,
+        "clientAreaDragEnabled": true
+    },
+    "lockCursor": false,
+    "showCursor": false
+}

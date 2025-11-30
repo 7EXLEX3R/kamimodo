@@ -1,0 +1,97 @@
+{
+    "$order": [
+        "sharpen",
+        "high-dynamic-range",
+        "motion-blur",
+        "grain",
+        "color-adjust",
+        "blur",
+        "bloom",
+        "ascii",
+        "edge-detect",
+        "color-adjust#2",
+        "custom"
+    ],
+    "sharpen": {
+        "intensity": 0.3,
+        "active": true
+    },
+    "high-dynamic-range": {
+        "baseSaturation": 1,
+        "baseIntensity": 1,
+        "bloomSaturation": 1,
+        "bloomIntensity": 1,
+        "threshold": 0.1,
+        "numSamples": 16,
+        "pixelPerturbModifier": 8,
+        "pixelWeightModifier": 8,
+        "luminanceVector": {
+            "x": 0.2125,
+            "y": 0.7154,
+            "z": 0.0721
+        },
+        "blueShiftVector": {
+            "x": 1.05,
+            "y": 0.97,
+            "z": 1.27
+        },
+        "middleGray": 0.5,
+        "isToneMappingEnabled": true,
+        "isBlueShiftEnabled": true,
+        "active": true
+    },
+    "color-adjust": {
+        "brightness": 0.9,
+        "contrast": 1.1,
+        "gamma": 0.9,
+        "color": {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "w": 1
+        },
+        "hueRotation": 0,
+        "active": true
+    },
+    "blur": {
+        "numSamples": 16,
+        "pixelPerturbModifier": 1,
+        "pixelWeightModifier": 4,
+        "intensity": 0.5,
+        "blur": 1,
+        "active": true
+    },
+    "bloom": {
+        "baseSaturation": 1.5,
+        "baseIntensity": 1,
+        "bloomSaturation": 2,
+        "bloomIntensity": 3,
+        "threshold": 0.25,
+        "numSamples": 8,
+        "pixelPerturbModifier": 2,
+        "pixelWeightModifier": 2,
+        "active": true
+    },
+    "ascii": {
+        "intensity": 1,
+        "fragmentSize": 4,
+        "active": true
+    },
+    "edge-detect": {
+        "active": true,
+        "intensity": 0.05
+    },
+    "color-adjust#2": {
+        "brightness": 1,
+        "contrast": 1,
+        "gamma": 1,
+        "color": {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "w": 1
+        },
+        "hueRotation": 0,
+        "active": true
+    }
+}

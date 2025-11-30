@@ -1,0 +1,20 @@
+{
+    "position.x": 1000,
+    "position.y": -300,
+    "name": "sharpen",
+    "type": "object",
+    "properties": {
+        "active": {
+            "type": "boolean",
+            "default": true
+        },
+        "intensity": {
+            "type": "number",
+            "default": 0.2
+        }
+    },
+    "$order": [
+        "active",
+        "intensity"
+    ]
+}

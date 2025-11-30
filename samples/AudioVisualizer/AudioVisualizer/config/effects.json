@@ -1,0 +1,31 @@
+{
+    "$order": [
+        "sharpen",
+        "bloom",
+        "grain",
+        "colorblindness",
+        "ascii",
+        "edge-detect"
+    ],
+    "bloom": {
+        "baseSaturation": 1,
+        "baseIntensity": 1,
+        "bloomSaturation": 1,
+        "bloomIntensity": 1,
+        "threshold": 0,
+        "numSamples": 15,
+        "pixelPerturbModifier": 4,
+        "pixelWeightModifier": 4,
+        "active": true
+    },
+    "colorblindness": {
+        "colorBlindnessType": "ACHROMATOPSIA",
+        "intensity": 5,
+        "active": true
+    },
+    "ascii": {
+        "intensity": 1,
+        "fragmentSize": 4,
+        "active": true
+    }
+}

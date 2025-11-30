@@ -1,0 +1,75 @@
+{
+    "position.x": 600,
+    "position.y": -300,
+    "name": "halolensflare",
+    "type": "object",
+    "properties": {
+        "active": {
+            "type": "boolean",
+            "default": true
+        },
+        "threshold": {
+            "type": "number",
+            "default": 0.7
+        },
+        "numSamples": {
+            "type": "integer",
+            "default": 15
+        },
+        "pixelPerturbModifier": {
+            "type": "number",
+            "default": 4
+        },
+        "pixelWeightModifier": {
+            "type": "number",
+            "default": 4
+        },
+        "intensity": {
+            "type": "number",
+            "default": 0.4
+        },
+        "bias": {
+            "type": "number",
+            "default": 10.0
+        },
+        "flaresCount": {
+            "type": "integer",
+            "default": 8
+        },
+        "dispersal": {
+            "type": "number",
+            "default": 0.3
+        },
+        "haloWidth": {
+            "type": "number",
+            "default": 0.6
+        },
+        "chromeDistortion": {
+            "type": "number",
+            "default": 3
+        },
+        "dirtIntensity": {
+            "type": "number",
+            "default": 0.5
+        },
+        "baseIntensity": {
+            "type": "number",
+            "default": 1
+        }
+    },
+    "$order": [
+        "active",
+        "threshold",
+        "numSamples",
+        "pixelPerturbModifier",
+        "pixelWeightModifier",
+        "intensity",
+        "bias",
+        "flaresCount",
+        "dispersal",
+        "haloWidth",
+        "chromeDistortion",
+        "dirtIntensity",
+        "baseIntensity"
+    ]
+}

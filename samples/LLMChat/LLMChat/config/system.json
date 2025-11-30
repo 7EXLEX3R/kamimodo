@@ -1,0 +1,21 @@
+{
+    "display": {
+        "width": 640,
+        "height": 640,
+        "vsync": false,
+        "fullScreen": false
+    },
+    "window": {
+        "name": "LLMChat",
+        "width": "auto",
+        "height": "auto",
+        "x": "auto",
+        "y": "auto",
+        "cornerRadius": 32,
+        "titleBar": false,
+        "alwaysOnTop": true,
+        "clientAreaDragEnabled": true
+    },
+    "lockCursor": false,
+    "showCursor": true
+}

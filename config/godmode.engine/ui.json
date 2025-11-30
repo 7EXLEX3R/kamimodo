@@ -1,0 +1,14 @@
+{
+    "theme": {
+        "font": {
+            "name": "Segoe UI",
+            "size": 14,
+            "weight": 300
+        },
+        "primaryBackgroundColor": [0.1, 0.1, 0.1, 0.3],
+        "secondaryBackgroundColor": [0.1, 0.1, 0.1, 0.6],
+        "primaryTextColor": [1, 1, 1, 1],
+        "secondaryTextColor": [1, 1, 1, 1],
+        "primaryPadding": [8, 8]
+    }
+}
