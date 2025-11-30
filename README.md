@@ -126,7 +126,7 @@ LLM chatbot using Ollama integration example
 
 pick a solution from the given samples, open the .sln file  
 if prompted to upgrade Target Platform Version / Platform Toolset:
-- select an available **Target Platform Version**/Windows SDK Version** (e.g., 10.x)
+- select an available **Target Platform Version**/**Windows SDK Version** (e.g., 10.x)
 - keep **Platform Toolset** as "No Upgrade" (must remain msvc-140)
 
 next, run:
